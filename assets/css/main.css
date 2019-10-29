@@ -80,7 +80,7 @@ body {
     transition: none !important; }
 
 body, input, select, textarea {
-  color: #a2a2a2;
+  color: #858585;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -2057,4 +2057,9 @@ body.is-touch .poptrox-popup .closer {
       font-size: .5em;
       color: #0F4FA8;
       margin: 0;
+    }
+    .italics {
+      margin-top: 5px !important;
+      font-style: italic;
+      color: #A2A2A2;
     }
