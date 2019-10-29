@@ -2060,12 +2060,13 @@ body.is-touch .poptrox-popup .closer {
     }
     .skills-desc:hover p {
       color: #082c5e;
+      border-top: 3px solid #082c5e;
       transition: 0.3s;
     }
     .skills-desc p{
       font-size: .35em;
       color: #858585;
-      border-top: 3px solid #082c5e;
+      border-top: 3px solid #0F4FA8;
       margin: 0;
     }
     .italics {
