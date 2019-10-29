@@ -2048,14 +2048,24 @@ body.is-touch .poptrox-popup .closer {
     }
     .skills-desc i{
       margin-bottom: .25em;
+      padding: 20px;
+      color: white;
+      background-color: #0F4FA8;
+      border-radius: 50%;
     }
 
-    .skills-desc i:hover{
-      color: #0F4FA8;
+    .skills-desc:hover i{
+      background-color: #082c5e;
+      transition: 0.3s;
+    }
+    .skills-desc:hover p {
+      color: #082c5e;
+      transition: 0.3s;
     }
     .skills-desc p{
-      font-size: .5em;
-      color: #0F4FA8;
+      font-size: .35em;
+      color: #858585;
+      border-top: 3px solid #082c5e;
       margin: 0;
     }
     .italics {
