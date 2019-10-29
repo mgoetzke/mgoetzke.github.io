@@ -2032,10 +2032,29 @@ body.is-touch .poptrox-popup .closer {
 
     /* Skills */
     .skills{
-      font-size: 50px;
+      font-size: 3em;
     }
 
     .skills li{
       padding: 0 !important;
-      margin: 20px;
+      margin: 10px;
+    }
+
+    .skills-desc {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .skills-desc i{
+      margin-bottom: .25em;
+    }
+
+    .skills-desc i:hover{
+      color: #0F4FA8;
+    }
+    .skills-desc p{
+      font-size: .5em;
+      color: #0F4FA8;
+      margin: 0;
     }
