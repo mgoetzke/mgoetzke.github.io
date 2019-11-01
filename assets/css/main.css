@@ -1273,7 +1273,7 @@ input[type="radio"] + label:before {
       display: none; }
     .image.avatar img {
       border-radius: 100%;
-      width: 100%; }
+      width: 115%; }
 
 /* List */
 ol {
@@ -2073,4 +2073,7 @@ body.is-touch .poptrox-popup .closer {
       margin-top: 5px !important;
       font-style: italic;
       color: #A2A2A2;
+    }
+    .text-pop {
+      color:#0F4FA8;
     }
