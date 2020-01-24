@@ -1,0 +1,47 @@
+
+head {
+    display: none;
+}
+
+* {
+    color: black;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+.links{
+    align-items: center;
+}
+.icons{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3c57ab
+}
+a{
+    transition: color 0.3s;
+    padding: 5px;
+    text-decoration: none;
+    color: RGB(115,115,115);
+}
