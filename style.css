@@ -2,7 +2,6 @@
 head {
     display: none;
 }
-
 * {
     color: black;
     margin: 0;
@@ -18,21 +17,21 @@ body {
 }
 
 h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
 p {
-    margin-bottom: 25px;
+    margin-bottom: 1rem;
 }
 .links{
     align-items: center;
 }
 .icons{
-    padding: 5px;
+    padding: .5rem;
     display: flex;
     flex-direction: row;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -41,7 +40,36 @@ a:hover{
 }
 a{
     transition: color 0.3s;
-    padding: 5px;
+    padding: .3rem;
     text-decoration: none;
     color: RGB(115,115,115);
+}
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 16px;
+    }
+}
+ 
+@media all and (max-width: 599px) and (min-width: 400px) {
+    body{
+        font-size: 12px;
+    }
+ 
+}
+
+@media all and (max-width: 399px) and (min-width: 250px) {
+    body{
+        font-size: 10px;
+    }
+ 
 }
